@@ -1,0 +1,71 @@
+/* definir las variables de los colores*/
+:root{
+    --bg-color: #0C0C0C;
+    --morado: #5E1FFF;
+    --verde: #00F160;
+    --azul: #001fff;
+}
+/* estilos generales*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+}
+/*estilo version movil maximo 600px*/
+@media screen and (max-width: 600px){
+  
+}
+/*estilo version pc minimo 600px*/
+@media screen and (min-width: 600px) {
+    h1{
+color: var(--verde);
+    }
+    /*estilo del menu*/
+.card {
+    width: 210px;
+    height: 254px;
+    border-radius: 4px;
+    background: var(--bg-color);
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+  }
+  .card p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: var(--bg-color);
+    border: 1px solid var(--azul);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card p:hover {
+    flex: 4;
+  }
+  
+  .card p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color:var(--azul);
+    letter-spacing: .1em;
+  }
+  
+  .card p:hover span {
+    transform: rotate(0);
+  }
+  header{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+}

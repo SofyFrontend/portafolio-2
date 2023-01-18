@@ -11,4 +11,4 @@ repositorio del rediseño de mi portafolio
 
 
 ## 📍 Vista previa 
-
+![vista previa]()
