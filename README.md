@@ -8,7 +8,8 @@ repositorio del rediseño de mi portafolio
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 📍 Extas
-
+![bitmoji](https://img.shields.io/badge/-bitmoji-brightgreen)
 
 ## 📍 Vista previa 
-![vista previa]()
+![vista previa](https://github.com/SofyFrontend/portafolio-2/blob/main/vistaprevia1.png)
+![vista previa 2](https://github.com/SofyFrontend/portafolio-2/blob/main/vistaprevia2.png)
