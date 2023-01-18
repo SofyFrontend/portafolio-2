@@ -4,14 +4,30 @@
     --morado: #5E1FFF;
     --verde: #00F160;
     --azul: #001fff;
+    font-size: 20px;
 }
 /* estilos generales*/
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+    color:white;
 }
+/*Particulas*/
+   /* ---- particles.js container ---- */ 
+   #particles-js{
+    z-index: -1;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #0c0c0c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    }
 /*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
   
@@ -20,6 +36,7 @@
 @media screen and (min-width: 600px) {
     h1{
 color: var(--verde);
+font-size: 4em;
     }
     /*estilo del menu*/
 .card {
@@ -30,6 +47,9 @@ color: var(--verde);
     display: flex;
     gap: 5px;
     padding: .4em;
+    grid-area: menu;
+    margin-left: 10vw;
+    margin-bottom: 20vh;
   }
   .card p {
     height: 100%;
@@ -63,9 +83,51 @@ color: var(--verde);
   .card p:hover span {
     transform: rotate(0);
   }
+  /***********************************************************/
   header{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 45% 45%;
     grid-template-rows: auto auto;
+    grid-template-areas: "titulo avatar"
+                          "menu avatar";
   }
+  #titulo{
+    grid-area: titulo;
+    padding:5vw 5vw;
+  }
+#avatar{
+  grid-area: avatar;
+  width: 100%;
+}
+.presetacion{
+  border-top: 2px solid var(--azul);
+  border-left: 2px solid var(--azul);
+  border-right: 2px solid var(--azul);
+  border-radius: 30px;
+  margin: 0 20vw;
+  padding: 2vw;
+}
+#h2-sobremi{
+text-align: center;
+font-size: 3em;
+margin:2vw;
+}
+#article_about{
+  border-top: 2px solid var(--azul);
+  border-left: 2px solid var(--azul);
+  border-right: 2px solid var(--azul);
+  border-radius: 30px;
+  margin: 0 20vw;
+  padding: 2vw;
+}
+.sofy{
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+.h4sofy{
+  display: block;
+  text-align: center;
+}
 }
