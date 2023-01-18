@@ -1,5 +1,7 @@
 # portafolio-2
 repositorio del rediseño de mi portafolio 
+esta es la segunda versión de mi portafolio, _aun esta en contrucción_ te dejo unas 
+capturas de pantalla del diseño final 
 
 ## 📍 Tecnologias usadas 
 
