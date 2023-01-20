@@ -11,6 +11,7 @@ capturas de pantalla del diseño final
 
 ## 📍 Extas
 ![bitmoji](https://img.shields.io/badge/-bitmoji-brightgreen)
+![particles.js](https://img.shields.io/badge/-particles.js-blueviolet)
 
 ## 📍 Vista previa 
 ![vista previa](https://github.com/SofyFrontend/portafolio-2/blob/main/vistaprevia1.png)
