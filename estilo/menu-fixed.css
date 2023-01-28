@@ -1,0 +1,25 @@
+/*estilo version movil maximo 600px*/
+@media screen and (max-width: 600px){
+  
+}
+/*estilo version pc minimo 600px*/
+@media screen and (min-width: 600px) {
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .menu-item{
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    margin: 2% 5%;
+  }
+}
