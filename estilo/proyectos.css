@@ -1,0 +1,43 @@
+/* definir las variables de los colores*/
+:root{
+    --bg-color: #0C0C0C;
+    --morado: #5E1FFF;
+    --verde: #00F160;
+    --azul: #001fff;
+    font-size: 20px;
+
+}
+/* estilos generales*/
+
+/*estilo version movil maximo 600px*/
+@media screen and (max-width: 600px){
+  
+}
+/*estilo version pc minimo 600px*/
+@media screen and (min-width: 600px) {
+    section{
+        margin:16vh 10vw 0 10vw;   
+    }
+    h2{
+        margin:5vh 0;
+        text-align: center;
+        color:white;
+        font-size: 2.5rem;
+    }
+    article{
+        border-top: 2px solid var(--azul);
+    border-left: 2px solid var(--azul);
+    border-right: 2px solid var(--azul);
+    border-radius: 30px;
+    padding: 2vw;
+    margin: 0 10vw 10vh; 
+    }
+    h3{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+    }
+}
