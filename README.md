@@ -13,6 +13,7 @@ capturas de pantalla del diseño final
 ![bitmoji](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/bitmoji.svg)
 ![particles.js](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/particles.js.svg)
 ![figma](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/figma.svg)
+![iconos8](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/iconos8.svg)
 
 
 ## 📍 Vista previa 
