@@ -19,3 +19,4 @@ capturas de pantalla del diseño final
 ## 📍 Vista previa 
 ![vista previa](https://github.com/SofyFrontend/portafolio-2/blob/main/vistaprevia1.png)
 ![vista previa 2](https://github.com/SofyFrontend/portafolio-2/blob/main/vistaprevia2.png)
+![vista previa 3 ](https://github.com/SofyFrontend/portafolio-2/blob/main/vistaprevia3.png)
