@@ -11,18 +11,24 @@
 
 /*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
-  
 }
 /*estilo version pc minimo 600px*/
 @media screen and (min-width: 600px) {
     section{
-        margin:16vh 10vw 0 10vw;   
+        margin:16vh 10vw 0 10vw; 
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto; 
+        grid-template-areas: "titulo titulo"
+                            "pro1 pro2"
+                            "pro3 pro4"; 
     }
     h2{
         margin:5vh 0;
         text-align: center;
         color:white;
         font-size: 2.5rem;
+        grid-area: titulo;
     }
     article{
         border-top: 2px solid var(--azul);
@@ -30,10 +36,22 @@
     border-right: 2px solid var(--azul);
     border-radius: 30px;
     padding: 2vw;
-    margin: 0 10vw 10vh; 
+    margin: 5vh;
     }
     h3{
         text-align: center;
+    }
+    #proyecto1{
+        grid-area: pro1;
+    }
+    #proyecto2{
+        grid-area: pro2;
+    }
+    #proyecto3{
+        grid-area: pro3;
+    }
+    #proyecto4{
+        grid-area: pro4;
     }
     footer{
         text-align: center;
