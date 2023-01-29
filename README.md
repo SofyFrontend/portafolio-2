@@ -10,8 +10,8 @@ capturas de pantalla del diseño final
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 📍 Extas
-![bitmoji](https://img.shields.io/badge/-bitmoji-brightgreen)
-![particles.js](https://img.shields.io/badge/-particles.js-blueviolet)
+![bitmoji](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/bitmoji.svg)
+![particles.js](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/particles.js.svg)
 ![figma](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/figma.svg)
 
 
