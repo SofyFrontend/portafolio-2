@@ -60,7 +60,9 @@
     }
     footer{
         text-align: center;
-        position: fixed;
         bottom: 0;
+    }
+    footer a:hover{
+        color:var(--morado);
     }
 }

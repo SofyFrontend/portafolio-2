@@ -135,4 +135,7 @@
   footer{
     text-align: center;
   }
+  footer a:hover{
+    color:var(--morado);
+}
 }
