@@ -53,6 +53,11 @@
     #proyecto4{
         grid-area: pro4;
     }
+    .enlace-pro{
+        display: block;
+        text-align: center;
+        color:var(--verde)
+    }
     footer{
         text-align: center;
         position: fixed;
