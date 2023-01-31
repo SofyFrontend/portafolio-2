@@ -5,6 +5,7 @@
     --verde: #00F160;
     --azul: #001fff;
     font-size: 20px;
+    font-family: 'Kanit', sans-serif;
 
 }/*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
