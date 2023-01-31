@@ -43,6 +43,11 @@
     }
     #proyecto1{
         grid-area: pro1;
+        display: flexbox;
+    }
+    .miniweb{
+        width: 90%;
+        align-items: center;
     }
     #proyecto2{
         border: none;
@@ -56,6 +61,9 @@
     }
     #proyecto4{
         grid-area: pro4;
+    }
+    .ver-mas{
+        color: var(--morado);
     }
     .enlace-pro{
         display: block;
