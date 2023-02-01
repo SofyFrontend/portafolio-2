@@ -1,0 +1,42 @@
+/* definir las variables de los colores*/
+:root{
+    --bg-color: #0C0C0C;
+    --morado: #5E1FFF;
+    --verde: #00F160;
+    --azul: #001fff;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+/* estilos generales*/
+
+/*estilo version movil maximo 600px*/
+@media screen and (max-width: 600px){
+}
+/*estilo version pc minimo 600px*/
+@media screen and (min-width: 600px) {
+    section{
+        margin:16vh 10vw 0 10vw; 
+    }
+    .miniweb{
+        width: 50%;
+        margin:2vw;
+    }
+    .miniweb-movil{
+        width: 20%;
+        margin:2vw;
+    }
+    h2{
+        margin:5vh 0;
+        text-align: center;
+        color:var(--verde);
+        font-size: 2.5rem;
+        grid-area: titulo;
+    }
+    .enlace-pro{
+        color:var(--morado);
+    }
+    .enlace-pro:hover{
+        color:var(--verde);
+        background: var(--morado);
+    }
+}
