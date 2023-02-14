@@ -11,6 +11,18 @@
 
 /*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
+    img{
+        width: 100%;
+    }
+    .ver-mas{
+        color:var(--morado);
+    }
+    .enlace-pro{
+        color:var(--verde);
+    }
+    section{
+        padding:5%;
+    }
 }
 /*estilo version pc minimo 600px*/
 @media screen and (min-width: 600px) {
