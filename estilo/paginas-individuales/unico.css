@@ -11,6 +11,19 @@
 
 /*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
+    section{
+        margin: 5%;
+    }
+    .miniweb{
+        width: 100%;
+    }
+    .miniweb-movil{
+        width: 50%;
+        margin:0 20%;
+    }
+    .enlace-pro{
+        margin:0 20%;
+    }
 }
 /*estilo version pc minimo 600px*/
 @media screen and (min-width: 600px) {
