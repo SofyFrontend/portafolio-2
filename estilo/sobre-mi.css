@@ -11,7 +11,9 @@
 
 /*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
-  
+  body{
+    padding: 5%;
+  }
 }
 /*estilo version pc minimo 600px*/
 @media screen and (min-width: 600px) {

@@ -1,6 +1,12 @@
 /*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
-  
+  nav{
+    
+    display: flex;
+    justify-content: center;
+    gap:5%;
+    width: 100%;
+  }
 }
 /*estilo version pc minimo 600px*/
 @media screen and (min-width: 600px) {
