@@ -9,6 +9,17 @@
 
 }/*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
+    section{
+        padding:5%;
+    }
+    section div img{
+        width: 50%;
+    }
+    #enlaces{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
 }
 /*estilo version pc minimo 600px*/
 @media screen and (min-width: 600px) {
