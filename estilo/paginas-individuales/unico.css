@@ -22,7 +22,11 @@
         margin:0 20%;
     }
     .enlace-pro{
+        color:var(--morado);
         margin:0 20%;
+    }
+    .volver{
+        color:var(--azul);
     }
 }
 /*estilo version pc minimo 600px*/
