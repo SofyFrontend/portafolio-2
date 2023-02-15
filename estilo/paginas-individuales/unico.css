@@ -8,7 +8,9 @@
     font-family: 'Kanit', sans-serif;
 }
 /* estilos generales*/
-
+*{
+    background-color: var(--bg-color);
+}
 /*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
     section{
