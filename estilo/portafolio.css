@@ -43,6 +43,21 @@
     color:var(--azul);
     text-align: center;
   }
+    /***********************************************************/
+    /* ---- particles.js container ---- */ 
+    #particles-js{ 
+      position:fixed;
+      top:0;
+      left: 0; 
+      width: 100%; 
+      height: 100%; 
+      z-index: -1;
+      background-color: #0c0c0c;
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: 50% 50%;
+     } 
+    /****************************************************************************/
 }
 /*estilo version pc minimo 600px*/
 @media screen and (min-width: 600px) {
