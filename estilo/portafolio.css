@@ -26,6 +26,9 @@
     color:var(--verde);
     text-align: center;
   }
+  h1{
+    font-family: 'Cardo', serif;
+  }
   .card {
     display:flex;
     flex-direction: row;
