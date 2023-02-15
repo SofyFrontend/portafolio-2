@@ -42,6 +42,7 @@
   }
   footer p, footer a {
     color:var(--azul);
+    text-align: center;
   }
 }
 /*estilo version pc minimo 600px*/

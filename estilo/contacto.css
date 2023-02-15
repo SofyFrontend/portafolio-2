@@ -20,6 +20,9 @@
         align-items: center;
         text-align: center;
     }
+    footer{
+        text-align: center;
+    }
 }
 /*estilo version pc minimo 600px*/
 @media screen and (min-width: 600px) {
