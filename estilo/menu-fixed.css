@@ -1,3 +1,12 @@
+/* definir las variables de los colores*/
+:root{
+  --bg-color: #0C0C0C;
+  --morado: #5E1FFF;
+  --verde: #00F160;
+  --azul: #001fff;
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+}
 /*estilo version movil maximo 600px*/
 @media screen and (max-width: 600px){
   nav{
@@ -6,6 +15,9 @@
     justify-content: center;
     gap:5%;
     width: 100%;
+  }
+  .menu-item{
+    color:var(--azul);
   }
 }
 /*estilo version pc minimo 600px*/
