@@ -1,4 +1,4 @@
-# portafolio-2
+# Portafolio-2
 Repositorio del rediseño de mi portafolio 
 esta es la segunda versión de mi portafolio, **_siempre hay cosas que mejorar_** te dejo unas 
 capturas de pantalla del diseño final, puedes visitarlo en [sofyfrontend.es](http://sofyfrontend.es/)
