@@ -6,7 +6,6 @@
     --azul: #001fff;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
-
 }
 /* estilos generales*/
 *{
@@ -218,7 +217,7 @@
       background-repeat: no-repeat; 
       background-size: cover; 
       background-position: 50% 50%;
-     } 
+} 
     /****************************************************************************/
 }
 /*estilo version pc minimo 600px*/
@@ -290,7 +289,7 @@
       background-repeat: no-repeat; 
       background-size: cover; 
       background-position: 50% 50%;
-     } 
+} 
     /****************************************************************************/
     header{
       display: grid;
@@ -334,11 +333,11 @@
     display: block;
     text-align: center;
   }
- 
+
   footer{
     text-align: center;
   }
   footer a:hover{
     color:var(--morado);
-}
+  }
 }

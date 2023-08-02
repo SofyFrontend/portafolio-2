@@ -5,7 +5,8 @@
     --verde: #00F160;
     --azul: #001fff;
     font-size: 20px;
-    font-family: 'Kanit', sans-serif;}
+    font-family: 'Kanit', sans-serif;
+}
 /*estilos generales*/
 *{
     background-color: var(--bg-color);

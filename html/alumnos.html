@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sofyfrontend">
+    <meta name="description"
+        content="Bienvenido a mi porfolio, en esta sección pongo explicaciones a mis alumnos, con soluciones en codepen.io">
+    <title>Alumnos</title>
+    <link href="../estilo/portafolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="../estilo/menu-fixed.css">
+    <link rel="stylesheet" href="../estilo/alumnos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- codigo para el loader  -->
+    <div id="back-loade">
+        <div class="loader">
+            <div id="first">
+                <div id="second">
+                    <div id="third">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin de codigo loader -->
+    <nav>
+        <a href="../index.html" class="menu-item"> Inicio </a>
+        <a href="sobre-mi.html" class="menu-item"> Sobre mi </a>
+        <a href="proyectos.html" class="menu-item"> Proyectos </a>
+        <a href="contacto.html" class="menu-item"> Contacto </a>
+    </nav>
+    <section id="explicacion">
+        <h2 id="h2-clases">
+            Explicaciones
+        </h2>
+        <article id="proyecto1" class="carta-proyecto">
+            <h3>Uso de un SVG sobre una imagen</h3> <br>
+            <p> Para este ejercicio se pide hacer una cabecera como la que se muestra a continuación:</p>
+            <img class="miniweb" src="../imagenes/miniweb/codePen-preview-olas-imagenes.png"
+                alt="previsualización de como queda la imagen y el svg">
+            <p>Para este ejemplo utilizaremos el generador de olas de <a href="https://getwaves.io/" class="enlace-pro"
+                    target="_blank">Get Waves</a>. Este generador nos permite configrar
+                unos parámetros como: el tipo de ola (redonda, en pico o cuadrada), el color de la ola, asi como si se
+                quiere mayor o menos números de olas</p>
+            <p>La imagen de la previsualización está formada por dos elementos la imagen de fondo que se ha insertado
+                desde css con la propiedad de background-image y la "ola" que en este caso una una etiqueta svg (etiqueta de
+                HTML5) que se ha obtenido de <a href="https://getwaves.io/" class="enlace-inline" target="_blank">
+                    Get Waves</a>.En este punto destacar que la ola es del color del fondo de la web para dar ese efecto de recorte.
+            </p>
+
+            <img src="../imagenes/capturas/imagen-arboles.jpg"
+                alt="captura de pantalla de la imagen que se ha usado para este ejemplo" class="captura-imagen">
+            <img src="../imagenes/capturas/captura-ola.jpg"
+                alt="captura de pantalla de la ola que se ha usado para este ejemplo" class="captura-imagen">
+
+            <p>En caso que del ejemplo se trata de una imagen <a href="https://unsplash.com/" target="_blank"
+                    class="enlace-inline">Unsplash</a>
+                y la ola obtenida de la web de <a href="https://getwaves.io/" class="enlace-inline" target="_blank">Get
+                    Waves</a> </p>
+            <img src="../imagenes/miniweb/getwaves.png" alt="captura de pantalla de la web de getwaves.io"
+                class="miniweb">
+            <p>Cuando tenemos los dos elementos (la imagen y la etiqueta). Pasamos al código que en este caso queda así
+                para el html y el css:</p>
+            <img src="../imagenes/capturas/ola-html.png" alt="fragmento de código html para usar la etiqueta svg" class="miniweb">
+            <img src="../imagenes/capturas/ola-css.png" alt="fragmento de código css para usar insertar la imagen y posicionar la etiquita svg" class="miniweb">
+            <p>Puedes visualizar este ejemplo: <a href="https://codepen.io/asoka92/pen/KKrbeRe" class="ver-mas">Ver en
+                    CodePen.io</a></p><br>
+        </article>
+
+
+
+        <footer>
+            <p>Diseño y desarollo <a href="www.sofyfrontend.es">Sofy Frontend</a></p>
+        </footer>
+        <script src="../js/mi-js.js"></script>
+</body>
+
+</html>
