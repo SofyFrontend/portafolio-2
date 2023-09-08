@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz cumpleaños </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(246, 241, 97);
+        }
+
+        .principal {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        h1 {
+            position: relative;
+            font-family: Lugrasimo;
+            animation: movimiento 5s infinite linear;
+            z-index: 1;
+        }
+
+        @keyframes movimiento {
+            0% {
+                top: 0;
+                color: white;
+            }
+
+            50% {
+                top: 90vh;
+                color: blue;
+            }
+
+            100% {
+                top: 1vh;
+                color: wheat;
+            }
+        }
+        .globos{
+            z-index: -1;
+            position: absolute;
+            scale: .5;
+            
+            animation: globos 5s infinite linear;
+        }
+        @keyframes globos {
+            0%{top:40vh;}
+            25%{top:20vh;right: 25vw;}
+            50%{top:0vh;right: 0;}
+            75%{top:-20vh;left: 25vw;}
+            100%{top:-40vh;left: 0;}
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="principal">
+        <h1>Feliz Cumpleaños</h1>
+    </div>
+    <img src="../imagenes/cumples/18056-removebg-preview.png" alt="imagenes de globos" class="globos">
+</body>
+
+</html>
