@@ -11,10 +11,20 @@ capturas de pantalla del diseño final, puedes visitarlo en [sofyfrontend.es](ht
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 📍 Extas
-![bitmoji](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/bitmoji.svg)
+
+### ✨ Librerias
+
 ![particles.js](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/particles.js.svg)
-![figma](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/figma.svg)
+
+### ✨ Recursos
+
+![bitmoji](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/bitmoji.svg)
 ![iconos8](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/iconos8.svg)
+
+### ✨ Diseño
+
+![figma](https://github.com/SofyFrontend/portafolio-2/blob/main/img-read/figma.svg)
+
 
 
 ## 📍 Vista previa 
