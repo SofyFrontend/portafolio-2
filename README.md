@@ -1,7 +1,7 @@
 # Portafolio-2
 Repositorio del rediseño de mi portafolio 
 esta es la segunda versión de mi portafolio, **_siempre hay cosas que mejorar_** te dejo unas 
-capturas de pantalla del diseño final. 
+capturas de pantalla del diseño final. ![visita mi portafolio](https://sofyfrontend.github.io/portafolio-2/)
 
 
 ## 📍 Tecnologias usadas 
